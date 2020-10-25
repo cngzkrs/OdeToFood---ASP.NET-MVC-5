@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/OdeToFood/OdeToFood.Data/bin/Debug
+/OdeToFood/OdeToFood.Data/obj
+/OdeToFood/OdeToFood.Web/bin
+/OdeToFood/OdeToFood.Web/obj/Debug
+/OdeToFood/OdeToFood.Web/obj/Release
+/OdeToFood
+/.vs
