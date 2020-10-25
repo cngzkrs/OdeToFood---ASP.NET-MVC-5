@@ -19,7 +19,7 @@ namespace OdeToFood.Web
 
             builder.RegisterControllers(typeof(MvcApplication).Assembly);
             builder.RegisterApiControllers(typeof(MvcApplication).Assembly);
-            builder.RegisterType<InMemoryRestaurantData>()
+            builder.RegisterType<SqlRestaurantData>()
                    .As<IRestaurantData>()
                    .InstancePerRequest();
             builder.RegisterType<OdeToFoodDbContext>().InstancePerRequest();
